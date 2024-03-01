@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+          <h1>Site Title</h1>
+
+          <h1> <img src="Image/peaky-blinder-logo.png" alt="Peaky_Blinders_logo"> </h1>
+          <p></p>
+          
+         <p cass="lead">Peaky Blinders is one of the most famous gangster families in modern television. Based on true events, the audience is transported to an industrial Birmingham that will turn (more than once) into a war zone, and the Peaky Blinders are always involved when the subject is violence and trouble.
+         </p>
+         <a href="#" class="play button"> watch</a> <!--two classes, play and button-->
+
+
+            
+          <ul>
+            <li><a href="work.html">work</a></li>
+            <li><a href="about.html">about</a></li>
+            
+          </ul>
+        </nav>
+      </header>
+      
+     <main>
+
+      <div Class="col">
+        <h2> The Peaky Blinders </h2>
+        <p>  2013, tv series, seasons 1 </p>
+        <p>Peaky Blinders is one of the most famous gangster families in modern television. Based on true events, the audience is transported to an industrial Birmingham that will turn (more than once) into a war zone, and the Peaky Blinders are always involved when the subject is violence and trouble.</p>
+         
+    </div>
+
+    <div class="col">
+       <p><strong>creator: </strong>Steven Knight</p>
+       <P><strong>cast: </strong> Murphy as Thomas Shelby, Helen McCrory as Polly Gray, Paul Anderson as Arthur Shelby, Finn Cole as Micheel Gray, Sophie Rundle as Ada Shelby, Joe Cole as Jhon Shelby, Tom Hardy as Alfie Solomons, Natasha O'Keeffe as Lizzie Stark</strong></P>
+        <p><strong>Gender:</strong> Drama . Crime  </p>
+        </strong></P>
+    </div>
+
+     </main>
+
+
+
+     <footer>
+      <p>Author: Randy Otanez</p>
+      <p><a href="Raotanez21@gmail.com">Raotanez21@gmail.cpm/a></p>
+      </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
