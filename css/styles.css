@@ -64,7 +64,7 @@ html{
 /* =========================
   GENERAL STYLING
   =========================  */
-  * {
+  *{
     box-sizing: border-box;
   }
   
@@ -97,21 +97,21 @@ html{
   .about-col-2{
       flex-basis: 60%;
   }
-  
-  /* poster page */
-  *{
+
+   /* poster page */
+   *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-  }
+}
 
-html {
+html{
     scroll-behavior: smooth;
 }
 
-body { 
-    background-color: #686868; 
+body{ 
+    background-color: #686868;
 }
 #wrapper {
   max-width: 1200px;
@@ -120,17 +120,17 @@ body {
   background-color: #fff;
 }
 
-header {
+header{
   padding: 3em;
   color: #fff;
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(35,26,18,1) 35%, rgba(65,49,34,0) 60%), url("Image/Peaky-Blinders.jpg") no-repeat top right/contain, #000;
 }
 
-header p {
+header p{
   width: 30%;
 }
 
-.button {
+.button{
   display: block;
   width: 4em;
   border: solid 1px #fff; 
@@ -142,20 +142,20 @@ header p {
   margin-top: 1em;
 }
 
-.play {
+.play{
   padding-left: 13px;
   background:  url(Image/play.svg) no-repeat left 12px center;
   margin-left: 30px;
 }
 
-nav li {
+nav li{
   display: inline;
   margin-right: 2em;
   padding-right: 2em;
   border-right: solid 1px #fff;
 }
 
-nav li:hover {
+nav li:hover{
   color: #060D0D;
   text-decoration: underline;
 }
@@ -193,123 +193,5 @@ footer {
 }
 
 
-/* ingredient page */
-body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-
-H2{
-
-  color:mediumblue;
-
-}
-
-h3{ 
-  color:mediumblue;
-
-}
-p{
-
-  line-height: 1.4em;
-  font-weight: bold;
-}
-
-ul,ol{
-  line-height: 1.4em;
-  padding-left: 1em;
-  
-}
-
-li{
-
-  line-height: 2rem;
-}
-
-/* store page */
-
-
-      
-body {
-  font-family: 'Poppins', sans-serif;
-        background-color: #f0f0f0;
-        margin: 1;
-        padding: 1;
-    }
-
-
-
-*{
-margin: 1;
-padding: 1;
-font-family: 'Poppins', sans-serif;
-box-sizing: border-box;
-}
-html{
-scroll-behavior: smooth;
-}
-
-
-* {
-  box-sizing: border-box;
-}
-
-body{
-  margin: 0;
-}
-main{
-  margin: 1rem;
-}
-
-
-
-
-
-#header{
-    width: 100%;
-    height: 100vh;
-    
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-
-
-
-
-
-
-
-
-.container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #ffffff;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-  
-
- h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-
-header {
-           color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-
-main {
-            padding: 20px;
-        }
 
 
