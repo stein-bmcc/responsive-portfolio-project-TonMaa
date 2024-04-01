@@ -216,3 +216,28 @@ box-sizing: border-box;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+h1 {
+  color: #333;
+}
+p {
+  color: #666;
+}
+
+header {
+  
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}    
