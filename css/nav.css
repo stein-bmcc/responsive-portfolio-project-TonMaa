@@ -42,7 +42,7 @@
     max-height: 0;
     flex-basis: 100%;
     text-align: right;
-  /*   these are needed for when showing nav from hamburger state *
+  /*   these are needed for when showing nav from hamburger state */
     -webkit-transition: max-height .5s; 
     -moz-transition: max-height .5s; 
     -ms-transition: max-height .5s; 
@@ -120,8 +120,7 @@
   /* =========================
     GENERAL STYLING
     =========================  */
-  
-    * {
+  * {
     box-sizing: border-box;
   }
   
@@ -131,5 +130,3 @@
   main{
     margin: 1rem;
   }
-
-  
