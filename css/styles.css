@@ -239,37 +239,3 @@ main {
 
 /* ingredient styles*/
 
-body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-.ingredient H2{
-
-  color:mediumblue;
-
-}
-
-.ingredient h3{ 
-  color:mediumblue;
-
-}
-p{
-
-  line-height: 1.4em;
-  font-weight: bold;
-}
-
-ul,ol{
-  line-height: 1.4em;
-  padding-left: 1em;
-  
-}
-
-li{
-
-  line-height: 2rem;
-}
-
