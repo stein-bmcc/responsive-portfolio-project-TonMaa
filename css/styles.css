@@ -77,8 +77,10 @@ main{
 }
 
 /*  styles poster  */
-
-* {
+.poster body { 
+  background-color: #686868;
+}
+*{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -99,7 +101,7 @@ html {
   background-color: #fff;
 }
 
-.poster header {
+header {
   padding: 3em;
   color: #fff;
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(35,26,18,1) 35%, rgba(65,49,34,0) 60%), url("Image/Peaky-Blinders.jpg") no-repeat top right/contain, #000;
@@ -109,7 +111,7 @@ header p {
   width: 30%;
 }
 
-.button {
+button {
   display: block;
   width: 4em;
   border: solid 1px #fff; 
@@ -127,7 +129,7 @@ header p {
   margin-left: 30px;
 }
 
-nav li {
+.poster nav li {
   display: inline;
   margin-right: 2em;
   padding-right: 2em;
@@ -238,4 +240,38 @@ main {
 }    
 
 /* ingredient styles*/
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ingredient H2{
+
+  color:mediumblue;
+
+}
+
+.ingredient h3{ 
+  color:mediumblue;
+
+}
+p{
+
+  line-height: 1.4em;
+  font-weight: bold;
+}
+
+ul,ol{
+  line-height: 1.4em;
+  padding-left: 1em;
+  
+}
+
+li{
+
+  line-height: 2rem;
+}
 
