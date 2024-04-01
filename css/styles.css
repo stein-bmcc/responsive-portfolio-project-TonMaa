@@ -246,13 +246,13 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-H2{
+.ingredient H2{
 
   color:mediumblue;
 
 }
 
-h3{ 
+.ingredient h3{ 
   color:mediumblue;
 
 }
