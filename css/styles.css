@@ -10,9 +10,9 @@ html {
 }
 
 body {
-  background: #080808;
+   background: #080808;
   color: #fff;
-  margin: 0;
+  margin: 0; 
 }
 
 
@@ -77,10 +77,8 @@ main{
 }
 
 /*  styles poster  */
-.poster body { 
-  background-color: #686868;
-}
-*{
+
+* {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -91,17 +89,11 @@ html {
   scroll-behavior: smooth;
 }
 
-
-  
-
-#wrapper {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fff;
+.poster body { 
+  background-color: #686868;
 }
 
-header {
+.poster header {
   padding: 3em;
   color: #fff;
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(35,26,18,1) 35%, rgba(65,49,34,0) 60%), url("Image/Peaky-Blinders.jpg") no-repeat top right/contain, #000;
@@ -111,7 +103,7 @@ header p {
   width: 30%;
 }
 
-button {
+.button {
   display: block;
   width: 4em;
   border: solid 1px #fff; 
@@ -129,7 +121,7 @@ button {
   margin-left: 30px;
 }
 
-.poster nav li {
+nav li {
   display: inline;
   margin-right: 2em;
   padding-right: 2em;
@@ -167,14 +159,11 @@ main {
   margin-right: 0;
 }
 
-.poster footer {
+footer {
   clear: both;
   margin-left: 3em;
   margin-bottom: 2em;
 }
-
-
-
 
 
 
