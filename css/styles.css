@@ -85,13 +85,13 @@ main{
   background-color: #fff;
 }
 
-header {
+.poster header {
   padding: 3em;
   color: #fff;
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(35,26,18,1) 35%, rgba(65,49,34,0) 60%), url("Image/Peaky-Blinders.jpg") no-repeat top right/contain, #000;
 }
 
-header p {
+.poster header p {
   width: 30%;
 }
 
@@ -137,17 +137,21 @@ nav a {
   text-decoration: none;
 }
 
-main {
+
+
+
+.poster main {
   padding: 0 3em;
+  background-color: none ;
 }
 
-.col {
+col {
   float: left;
   margin-right: 2em;
   width: 47%;
 }
 
-.col:last-child {
+col:last-child {
   margin-right: 0;
 }
 
