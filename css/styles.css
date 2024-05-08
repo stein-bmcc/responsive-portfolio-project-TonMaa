@@ -1,142 +1,284 @@
-/*  ==========================
-    BASE TYPOGRAPHY
-    This is added as a template to help start. 
-    You should change the fonts, font-sizes and anything else appropriate for your site.
-    ========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 
-/* Optional, include a web font. @import must come before other styles. These examples are commented out */
-
-/*
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,700,700i');
-@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500');
-*/
-
-/* The html and body selectors below set the base type for the entire page */
 html {
-    font-size: 1em;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #333;
+   background: #080808;
+  color: #fff;
+  margin: 0; 
 }
 
 
-/* This adds space between paragraphs and list items*/
-/* NOTE: most Navigations use list items so you will need to */
-/* explicity set the margins on those so this rule doesn't */
-/* mess up your navigation styling */
-p,
-li {
-    margin-top: 0;
-    margin-bottom: 1em;
+
+
+/* General Styling */
+.header-text {
+  margin-top: 20%;
+  font-size: 30px;
+}
+
+.header-text h1 {
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.header-text h1 span {
+  color: #ff004f;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+/* Custom article card styles */
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-item h2 {
+  font-size: 1.9rem;
+  margin: 0 0 18px 0;
+  color: #fff;
+}
+
+.grid-item a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ff004f;
+  transition: color 0.3s ease-out;
+}
+
+.grid-item a:hover {
+  color: #ff6699;
 }
 
 
-/* Base Styling for headings.
-    You can and should modify these to fit your site*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 500;
-    font-family: serif;
+/* styles about page */
+.about body{
+  margin: 0;
+}
+main{
+  margin: 1rem;
+}
+
+#about{
+  padding: 80px 0;
+  color: #ababab;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-col-1{
+  flex-basis: 35%;
+}
+.about-col-1 img{
+  width: 100%;
+  border-radius: 15px;
+}
+.about-col-2{
+  flex-basis: 60%;
+}
+
+/*  styles poster  */
+
+#wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+.poster header {
+  padding: 3em;
+  color: #fff;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(35,26,18,1) 35%, rgba(65,49,34,0) 60%), url("Image/Peaky-Blinders.jpg") no-repeat top right/contain, #000;
+}
+
+.poster header p {
+  width: 30%;
+}
+
+.button {
+  display: block;
+  width: 4em;
+  border: solid 1px #fff; 
+  border-radius: 50px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.play {
+  padding-left: 13px;
+  background:  url(Image/play.svg) no-repeat left 12px center;
+  margin-left: 30px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 2em;
+  padding-right: 2em;
+  border-right: solid 1px #fff;
+}
+
+nav li:hover {
+  color: #060D0D;
+  text-decoration: underline;
+}
+
+nav {
+  background-color: #D9D9D9;
+  padding: 0.5em;
+  padding-left: 3em;
+  margin-bottom: 2em;
+}
+
+nav a {
+  color: #060D0D;
+  text-decoration: none;
 }
 
 
-/* For each of your headings at minimum set the margin, size, line-height. 
-Adjust font-weight and other properties as needed. */
 
-h1 {
-    font-size: 5.063em;
-    line-height: 1;
-    margin: 0 0 0.5em 0;
+
+.poster main {
+  padding: 0 3em;
+  background-color: none ;
 }
 
-h2 {
-    font-size: 3.375em;
-    line-height: 1.2;
-    margin: 1.5em 0 0.5em 0;
+col {
+  float: left;
+  margin-right: 2em;
+  width: 47%;
 }
 
-h3 {
-    font-size: 2.25em;
-    line-height: 1;
-    margin: 1.5em 0 0.25em 0;
+col:last-child {
+  margin-right: 0;
 }
 
-h4 {
-    font-size: 1.5em;
-    line-height: 1;
-    margin: 1.5em 0 0.5em 0;
-    font-weight: 400;
-}
-
-h5 {
-    font-size: 1em;
-    line-height: 1;
-    margin: 1.5em 0 0.5em 0;
-    font-weight: 400;
-}
-
-h6 {
-    font-size: 1em;
-    line-height: 1.5;
-    margin: 1em 0 0 0;
-    font-weight: 400;
-    /* normal */
-    text-transform: uppercase;
-}
-
-/*  ==========================
-    BASE RESPONSIVE
-    ========================== */
-
-/* Use border-box box-sizing. This isn't strictly necessary with CSS Grid but can be helpful if you're using a float fallback and it tends to be more intuitive.*/
-
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
+footer {
+  clear: both;
+  margin-left: 3em;
+  margin-bottom: 2em;
 }
 
 
-/* This is basic way to make images responsive. This means if they're larger than their container they will shrink to fit it. Not a complete solution to responsive images. */
+/* styles store */
 
-img, video {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-}
-
-/*RESPONSIVE VIDEO
-See for more info: https://codepen.io/profstein/pen/mrMLRj
-*/
-.videoWrapper{
-    position: relative;
-    height: 0;
-    /* padding-bottom: 75%; */ /* 4:3 aspect ratio */
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-}
-
-.videoWrapper iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width:100%;
-    height: 100%;
+      
+.store body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f0f0;
+  margin: 1;
+  padding: 1;
 }
 
 
-/*  ==========================
-    YOUR STYLES
-    Add your styles below.
-    ========================== */
+
+*{
+margin: 1;
+padding: 1;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+
+
+
+#header{
+  width: 100%;
+  height: 100vh;
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.store container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+header {
+  
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+
+.store footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}    
+
+/* ingredient styles*/
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ingredient H2{
+
+  color:mediumblue;
+
+}
+
+.ingredient h3{ 
+  color:mediumblue;
+
+}
+p{
+
+  line-height: 1.4em;
+  font-weight: bold;
+}
+
+ul,ol{
+  line-height: 1.4em;
+  padding-left: 1em;
+  
+}
+
+li{
+
+  line-height: 2rem;
+}
+
