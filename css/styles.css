@@ -45,6 +45,29 @@ body {
   padding: 20px;
   border: 1px solid #ccc;
 }
+/* Custom article card styles */
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-item h2 {
+  font-size: 1.9rem;
+  margin: 0 0 18px 0;
+  color: #fff;
+}
+
+.grid-item a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ff004f;
+  transition: color 0.3s ease-out;
+}
+
+.grid-item a:hover {
+  color: #ff6699;
+}
+
 
 /* styles about page */
 .about body{
